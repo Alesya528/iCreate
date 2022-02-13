@@ -336,10 +336,10 @@
 // }
 
 //3
-let a = '12';
-let b = 10;
-console.log(a*b);
-let a = 6;
-let b = 6;
+// let a = '12';
+// let b = 10;
+// console.log(a*b);
+// let a = 6;
+// let b = 6;
 
 
