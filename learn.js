@@ -342,4 +342,20 @@
 // let a = 6;
 // let b = 6;
 
+// ЗАДАЧИ НА ФУНКЦИИ РАБОТЫ СО СТРОКАМИ В JAVASCRIPT
+
+
+// task 1
+// let str = 'aaa@@@bb@ccc';
+// let str2 = str.replace(/@/g, '!');
+// console.log(str2)
+
+// task 2
+// let str = 'aaa bbb ccc';
+// console.log(str.slice(4,7));
+
+//task 3 
+// let date = '2025-12-31';
+// console.log(date.replace(/-/g, '/'));
+
 

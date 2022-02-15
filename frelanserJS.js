@@ -7,11 +7,12 @@
 // console.log(userInfo[58]);
 
 
-let userInfo = {
-    name: 'Вася',
-    age: 30,
-}
+// let userInfo = {
+//     name: 'Вася',
+//     age: 30,
+// }
 
-let user = userInfo;
-user.age = 45;
-console.log(userInfo.age)
+// let user = userInfo;
+// user.age = 45;
+// console.log(userInfo.age)
+
