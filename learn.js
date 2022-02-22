@@ -342,6 +342,10 @@
 // let a = 6;
 // let b = 6;
 
+
+
+
+
 // ЗАДАЧИ НА ФУНКЦИИ РАБОТЫ СО СТРОКАМИ В JAVASCRIPT
 
 
@@ -357,5 +361,43 @@
 //task 3 
 // let date = '2025-12-31';
 // console.log(date.replace(/-/g, '/'));
+
+
+
+
+
+
+//Задачи на функции работы с массивами
+
+// task 1
+
+// let a = ['a', 'b', 'c'];
+// let b = [1, 2, 3];
+// console.log(a.concat(b));
+
+//task 2
+// let arr = [1, 2, 3, 4];
+// arr.push('a', 'b', 'c')
+// console.log(arr);
+
+//2
+// let arr = [1, 2, 3, 4, 5, 6];
+// arr.reverse();
+// console.log(arr);
+
+//3
+// let arr = [1, 2, 3, 4, 5, 6];
+// arr.push(7, 8, 9);
+// console.log(arr);
+
+//4
+// let arr = [1, 2, 3, 4, 5, 6];
+// arr.unshift('1', '2', '3', '4');
+// console.log(arr);
+
+//5
+// let arr = ['js', 'css', 'iq'];
+// console.log(arr.shift());
+
 
 
