@@ -448,3 +448,44 @@
 // }
 // console.log(Object.keys(arr));
 
+
+
+
+
+//практика на комбинации стандартных цункций 
+
+//1 
+// let str = 'hhjhhkkjjkkjjk';
+// str = str.charAt(0).toUpperCase() + str.slice(1);
+// console.log(str);
+
+// 1-2
+// let str = 'dfkfkdlfkdlfkdf';
+// str = str.split('');
+// str[0] = str[0].toUpperCase();
+// let result = str.join('');
+// console.log(result);
+
+//2
+// let str = '123456';
+// str = str.split('');
+// str = str.reverse().join('');
+// console.log(str);
+
+//3
+// let str = 'http://rfrferfer';
+// if (str.substring(0, 7) == 'http://') {
+//     alert('верно')
+
+// } else {
+//     alert('говно дело')
+// }
+
+//4
+// let str = 'dfld;lfsklhtml';
+// console.log(str.substring(-5))
+// if (str.substr(-4) == 'html'){
+//     console.log('cool')
+// } else {
+//     console.log('stuff')
+// }
