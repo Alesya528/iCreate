@@ -399,5 +399,52 @@
 // let arr = ['js', 'css', 'iq'];
 // console.log(arr.shift());
 
+// 6
+// let arr = ['js', 'css', 'jq'];
+// console.log(arr.pop());
 
+//7
+// let arr = [1, 2, 3, 4, 5];
+// let arr2 = arr.slice(0, 3);
+// console.log(arr2);
+
+//8
+// let arr = [1, 2, 3, 4, 5, 6];
+// let arr2 = arr.slice(4);
+// console.log(arr2);
+
+//9 
+// let arr = [1, 2, 3, 4, 5, 6];
+// let arr2 = arr.splice(1, 2);
+// console.log(arr);
+
+//10
+// let arr = [1, 2, 3, 4, 5, 6];
+// let arr2 = arr.splice(1, 3);
+// console.log(arr2);
+
+//11
+// let arr = [1, 2, 3, 4, 5, 6]
+// arr.splice(3, 0, 'a', 'b', 'c');
+// console.log(arr);
+
+//12
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// arr.splice(1, 0, 'a', 'b');
+// arr.splice(-1, 0, 'c');
+// arr.push('e');
+// console.log(arr);
+
+//13
+// let arr  = [3, 4, 7, 1, 6, 5, 7, 8, 3];
+// arr.sort();
+// console.log(arr)
+
+//14
+// let arr = {
+    // js: 'test',
+    // jq: 'hellow',
+    // css: 'world'
+// }
+// console.log(Object.keys(arr));
 
