@@ -489,3 +489,101 @@
 // } else {
 //     console.log('stuff')
 // }
+
+// work with flag
+
+//1
+// function mas(arr){
+//     let znach = false;
+//     for (i = 0; i<=arr.length; i++){
+//         if (arr[i] === 5){
+//             znach = true;
+//         }
+//     }
+//     if (znach == true){
+//         return 'there is 5 number'
+//     } else {
+//         return ' there is not'
+//     }
+// }
+// let arr = [1, 2, 3, 4,5 ,6 ,8, 4, 3, 2,7,8]
+// console.log(mas(arr));
+
+//2
+// function prover(num){
+//     let result = true;
+//     for (i=2; i<num; i++){
+//         if(num % i != 0){
+//         result = true;
+//         } else {
+//             result = false;
+//             break;
+//         }
+//     }
+//     return result;
+
+// }
+// console.log(prover(30));
+
+
+//3
+
+// function prov(arr){
+//     let znach;
+//     for (i=0; i<=arr.length-1; i++){
+//         if (znach == arr[i]){
+//             return true;
+//         } else {
+//             znach = arr[i];
+//         }
+//     }
+//     return false;
+// }
+// let arr = [0, 0, 1, 5, 6, 3, 7, 8, 9, 5, 8, 5 ,4]
+// console.log(prov(arr));
+
+
+//..
+// function func(a, b) {
+// 	return a > b;
+// }
+
+// console.log(func(4,3))
+
+
+
+
+
+
+
+
+
+
+
+
+// пример работы с логическими значиениями
+
+
+//1
+// function iqual(one, two){
+    // return one == two;
+// }
+// 
+// alert(iqual(3,3));
+
+
+
+//2
+// function more(one, two){
+//     return one + two > 10;
+// }
+
+// console.log(more(2,8))
+
+
+
+//3
+// function ga(num){
+// return num<0;
+// }
+// console.log(ga(-6))
