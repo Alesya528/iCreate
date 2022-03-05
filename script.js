@@ -48,14 +48,15 @@ const personelMovieDB = {
     }
     },
     writeYourGenres: function(){
-        for(let i = 1; i <= 3; i++){
-            personelMovieDB.genres[i - 1] = prompt(`Ваш любимый жанр под номером ${i}`);
-            while(personelMovieDB.genres === '' || personelMovieDB.genres === null) {
-                personelMovieDB.genres[i - 1] = prompt(`Ваш любимый жанр под номером ${i}`);
+        for(let i = 0; i <= 2; i++){
+            let genres = prompt(`Ваш любимый жанр под номером ${i+1}`);
+            if(genres === '' || genres === null) {
+                prompt('Вы ввели какую-то чухню')
+                i--;
+            } else {
+            personelMovieDB.genres[i] = genres;
             }
         }
-
-
         //здесяяяяяя
     },
     showMyBD: function(){
